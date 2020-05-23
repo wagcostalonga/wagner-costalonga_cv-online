@@ -1,0 +1,55 @@
+.habilidades {
+  height: 100%;
+  background: #fff56b;
+
+  .container {
+    padding: 12rem 0;
+  }
+
+  h1 {
+    background: #212529;
+    color: #fff56b;
+    display: inline-block;
+    padding: 3rem 2rem 1rem 6rem ;
+  }
+
+  &__content {
+    margin: 8rem auto 0 auto;
+    max-width: 70%;
+
+    a {
+      text-decoration: none;
+      color: #212529;
+      border-bottom: 1px solid #212529;
+    }
+
+    h2 {
+      margin: 8rem 0 2rem 0;
+    }
+  }
+
+  &__progress {
+    margin-top: 4rem;
+
+    .progress {
+      height: 2rem;
+      font-size: 1.2rem;
+      background: #fff;
+
+      & + .progress {
+        margin-top: 2rem;
+      }
+    }
+  }
+
+  &__icons {
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-between;
+
+    span {
+      color: #212529;
+      font-size: 5rem;
+    }
+  }
+}

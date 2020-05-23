@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Wagner Costalonga</title>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg bg-dark fixed-top py-4 px-5">
+    <div class="container">
+
+      <a class="navbar-brand" href="#home">
+        <strong>wcostalonga</strong>
+        <span>Frontend Developer</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">&nbsp;</span>
+      </button>
+
+      <div class="collpase navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active pr-3">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item active pr-3">
+            <a href="#perfil" class="nav-link">Perfil</a>
+          </li>
+          <li class="nav-item active pr-3">
+            <a href="#experiencias" class="nav-link">Experiências</a>
+          </li>
+          <li class="nav-item active pr-3">
+            <a href="#habilidades" class="nav-link">Habilidades</a>
+          </li>
+          <li class="nav-item active pr-3">
+            <a href="#portfolio" class="nav-link">Portfólio</a>
+          </li>
+          <li class="nav-item active pr-3">
+            <a href="#contato" class="nav-link">Contato</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header id="home" class="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 col-md-6 col-12">
+          <p class="home__anim-1 from-left">Olá, seja Bem-Vindo(a)!<br />
+            Me chamo Wagner Costalonga: sou designer, desenvolvedor Frontend e este é o meu currículo online.
+          </p>
+          <h1 class="home__anim-2 from-left--delay">Desenvolvedor à procura de uma oportunidade e oportunidade ao encontro de desenvolvedores.
+          </h1>
+        </div>
+      </div>
+
+      <img class="home__img-mobile" src="/assets/img/cover-index-mobile.svg">
+
+      <div class="row">
+        <div class="col-lg text-center">
+          <a href="#portfolio" class="btn">
+            <div>
+              <span>Veja mais</span>
+              <svg class="bi bi-arrow-down" width="1.5em" height="1.5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M4.646 9.646a.5.5 0 01.708 0L8 12.293l2.646-2.647a.5.5 0 01.708.708l-3 3a.5.5 0 01-.708 0l-3-3a.5.5 0 010-.708z" clip-rule="evenodd"/>
+              <path fill-rule="evenodd" d="M8 2.5a.5.5 0 01.5.5v9a.5.5 0 01-1 0V3a.5.5 0 01.5-.5z" clip-rule="evenodd"/>
+              </svg>
+            </div>
+          </a>
+        </div>
+      </div>
+      
+    </div>
+  </header>
+
+  <!-- PERFIL -->
+  <section id="perfil" class="perfil">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-2">
+          <h1>Perfil</h1>
+          <img src="/assets/img/wagner.png" alt="Wagner">
+        </div>
+        <div class="col-md-10">
+          <div class="perfil__wrapper">
+            <p class="perfil__text perfil__anim from-right">
+              Ítalo-brasileiro, tenho 34 anos e vivo atualmente em Lisboa, Portugal. <br />
+              Sou apaixonado por informática, design e comunicação, segmentos bem representados hoje através dos conceitos UI e UX, e venho buscando aprimorar cada vez mais meus conhecimentos e minhas habilidades como desenvolvedor afim de seguir minha linha vocacional direcionada a "criação" e a ajudar a preencher toda e qualquer lacuna gerada por essa enorme demanda de ideias e projetos dentro do universo digital.    
+            </p>
+            <div class="perfil__line" />
+
+            <h2>Cursos e certificações</h2>
+            <ul>
+              <li>
+                <p>
+                  <strong>Fullstack NodeJS, React e React Native</strong> - Rocketseat (online)
+                  <br /> 
+                  Brasil | 2020-em andamento
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Bootstrap 4</strong> - Udemy (online)
+                  <br /> 
+                  USA | 2019
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Advanced CSS e Sass: Flexbox, Animations and more...</strong> - Udemy (online)
+                  <br /> 
+                  Portugal | 2018
+                </p>
+              </li>
+            </ul>
+
+            <h2>Formação Acadêmica</h2>
+            <ul>
+              <li>
+                <p>
+                  <strong>Arquitetura e Urbanismo</strong> - Universidade Paulista UNIP
+                  <br /> 
+                  Campinas, Brasil | 2012-2017
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  
+  <!-- EXPERIÊNCIAS -->
+  <section id="experiencias" class="experiencias">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-3">
+          <h1>Experiências</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col experiencias__table">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Período</th>
+                <th scope="col">Empresa</th>
+                <th scope="col">Localidade</th>
+                <th scope="col">Função</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2019-2020</td>
+                <td>Wagner Costalonga</td>
+                <td>Valinhos, Brasil</td>
+                <td>Designer Freelancer</td>
+              </tr>
+              <tr>
+                <td>2017-2019</td>
+                <td>HOBrazil Sistemas Construtivos</td>
+                <td>São José dos Campos, Brasil</td>
+                <td>Gerente de projetos</td>
+              </tr>
+              <tr>
+                <td>2014-2016</td>
+                <td>Guardini Stancati Arquitetura & Design</td>
+                <td>Campinas, Brasil</td>
+                <td>Auxiliar em Arquitetura</td>
+              </tr>
+              <tr>
+                <td>2013-2014</td>
+                <td>ADNS Sousa Arquitetura & Construção</td>
+                <td>Valinhos, Brasil</td>
+                <td>Supervisor de Canteiro de Obras</td>
+              </tr>
+              <tr>
+                <td>2013</td>
+                <td>KT Arquitetura & Design</td>
+                <td>Vinhedo, Brasil</td>
+                <td>Estagiário em Arquitetura</td>
+              </tr>
+              <tr>
+                <td>2011-2012</td>
+                <td>Clicherlux Ind. e Com. de Clichês</td>
+                <td>Valinhos, Brasil</td>
+                <td>Designer Gráfico Pleno</td>
+              </tr>
+              <tr>
+                <td>2011</td>
+                <td>Aktus Soluções</td>
+                <td>Vinhedo, Brasil</td>
+                <td>Assistente de criação</td>
+              </tr>
+              <tr>
+                <td>2011</td>
+                <td>AMG7 Design & Comunicação</td>
+                <td>Campinas, Brasil</td>
+                <td>Assistente de criação</td>
+              </tr>
+              <tr>
+                <td>2007-2011</td>
+                <td>LTL Publicações</td>
+                <td>Valinhos, Brasil</td>
+                <td>Web/Designer Gráfico</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  
+  <!-- HABILIDADES -->
+  <section id="habilidades" class="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h1>Habilidades</h1>
+        </div>
+
+        <div class="row">
+          <div class="col habilidades__content">
+            <p class="habilidades__anim from-left">Este <i>progress</i> baseia-se em uma <strong>auto crítica</strong> da minha atual experiência e aprendizado nas tecnologias listadas. Para uma melhor avaliação consulte meus repositórios 
+              <a href="https://github.com/wagcostalonga?tab=repositories" target="_blank">github</a>
+            e/ou sinta-se à vontade para aplicar testes condizentes.</p>
+
+            <div class="habilidades__progress" >
+              <div class="progress">
+                <div class="progress-bar bg-dark" role="progressbar" style="width: 95%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">HTML</div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar bg-dark" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">CSS</div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar bg-dark" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">SASS</div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar bg-dark" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">JAVASCRIPT</div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar bg-dark" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">TYPESCRIPT</div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar bg-dark" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">BOOTSTRAP</div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar bg-dark" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">NODE JS</div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar bg-dark" role="progressbar" style="width: 55%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">BANCO SQL</div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar bg-dark" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">REACT JS</div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar bg-dark" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">REACT NATIVE</div>
+              </div>
+
+              <h2>Idiomas</h2>
+              <div class="progress">
+                <div class="progress-bar bg-dark" role="progressbar" style="width: 100%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">PORTUGUÊS</div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar bg-dark" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">INGLÊS</div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar bg-dark" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">ITALIANO</div>
+              </div>
+            </div> 
+            
+            <div class="habilidades__icons">
+              <span>
+                <i class="fab fa-html5"></i>
+              </span>
+              <span>
+                <i class="fab fa-css3-alt"></i>
+              </span>
+              <span>
+                <i class="fab fa-sass"></i>
+              </span>
+              <span>
+                <i class="fab fa-js"></i>
+              </span>
+              <span>
+                <i class="fab fa-bootstrap"></i>
+              </span>
+              <span>
+                <i class="fab fa-node-js"></i>
+              </span>
+              <span>
+                <i class="fab fa-yarn"></i>
+              </span>
+              <span>
+                <i class="fab fa-docker"></i>
+              </span>
+              <span>
+                <i class="fab fa-react"></i>
+              </span>
+            </div>
+            
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h1>Portfólio</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col portfolio__content">
+          <div class="portfolio__img">
+            <img src="/assets/img/displays.svg" class="portfolio__img--svg-01">
+            <img src="/assets/img/portfolio-img01.png" alt="Weather Finder" class="portfolio__img--png-01">
+            <a href="https://github.com/wagcostalonga/weather-app_react---web" target="_blank" class="a--01">Weather Finder</a>
+          </div>
+          <div class="portfolio__img">
+            <img src="/assets/img/displays.svg" class="portfolio__img--svg-02">
+            <img src="/assets/img/portfolio-img02.png" alt="" class="portfolio__img--png-02">
+            <a href="https://github.com/wagcostalonga/omnistack11---be-the-hero" target="_blank" class="a--02">Be The Hero</a>
+          </div>
+          <div class="portfolio__img">
+            <img src="/assets/img/displays.svg" class="portfolio__img--svg-03">
+            <img src="/assets/img/portfolio-img03.png" alt="" class="portfolio__img--png-03">
+            <a href="https://github.com/wagcostalonga/bootcamp_gostack-desafio07" target="_blank" class="a--03">Rocketshoes</a>
+          </div>
+          <div>
+            <h2>e mais...</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <footer id="contato" class="contato">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2>Contatos e Links Úteis</h2>
+          <p class="contato__anim from-right">Se interessou pelo meu trabalho? Ainda tem dúvidas? <br /> Então fique a vontade para visitar meus perfis no LinkedIn e no Github, mas não deixe de contactar-me para que possamos nos conhecer melhor e tornar esta oportunidade uma grande parceria. </p>
+          <ul>
+            <li>
+               <a href="http://www.linkedin.com/in/wagnercostalonga/" target="_blank">
+                <span>
+                  <i class="fab fa-linkedin"></i>
+                </span>
+                /wagnercostalonga
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/wagcostalonga" target="_blank">
+                <span>
+                  <i class="fab fa-github"></i>
+                </span>
+                /wagcostalonga
+              </a>
+            </li>
+            <li>
+              <a href="mailto:costalongawagner@gmail.com" subject="subject text">
+                <span>
+                  <i class="fas fa-envelope"></i>
+                </span>
+                /costalongawagner@gmail.com
+              </a>
+            </li>
+            <li>
+              <a href="https://wa.me/351910310267" target="_blank">
+                <span>
+                  <i class="fab fa-whatsapp"></i>
+                </span>
+                /+351 910310267
+              </a>
+            </li>
+          </ul>
+          <div class="contato__line">&nbsp;</div>
+          <p class="contato__text-footer">Wagner Costalonga | Última atualização Maio de 2020</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SCRIPT -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/c54c39665e.js" crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+  
+</body>
+</html>

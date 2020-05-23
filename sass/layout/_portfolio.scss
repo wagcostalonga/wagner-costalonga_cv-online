@@ -1,0 +1,71 @@
+.portfolio {
+  height: 100%;
+
+  .container {
+    padding: 12rem 0;
+  }
+
+  h1 {
+    background: #212529;
+    color: #fff;
+    display: inline-block;
+    padding: 3rem 2rem 1rem 6rem ;
+  }
+
+  &__content{
+    margin-top: 16rem;
+
+    h2 {
+      text-align: right;
+      margin-top: 4rem;
+    }
+  }
+
+  &__img {
+    display: flex;
+    flex-direction: column;
+
+    &:not(:first-child) {
+      margin-top: 12rem;
+    }
+
+    &--svg-01, &--svg-02, &--svg-03 {
+      position: absolute;
+      width: 913px;
+      margin-left: 4px;
+    }
+
+    &--svg-01 {
+      top: -6.7rem;
+      left: 1px;
+    }
+
+    &--svg-02 {
+      top: 47.9rem;
+      right: -2px;
+    }
+
+    &--svg-03 {
+      top: 102.6rem;
+      left: 1px;
+    }
+
+    &--png-01, .a--01 {
+      align-self: flex-start;
+    }
+
+    &--png-02, .a--02 {
+      align-self: flex-end;
+    }
+
+    &--png-03, .a--03 {
+      align-self: flex-start;
+    }
+
+    .a--01, .a--02, .a--03 {
+      margin-top: 1rem;
+      text-decoration: none;
+      color: #212529;
+    }
+  }
+} 

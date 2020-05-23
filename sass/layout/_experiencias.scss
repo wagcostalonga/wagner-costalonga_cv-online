@@ -1,0 +1,19 @@
+.experiencias {
+  height: 100%;
+
+  .container {
+    padding: 12rem 0;
+
+      h1 {
+          background: #212529;
+          color:#fff;
+          display: inline-block;
+          padding: 3rem 2rem 1rem 6rem ;
+      }
+    }
+    
+
+  &__table {
+    margin: 8rem auto 0 auto;
+  }
+}  

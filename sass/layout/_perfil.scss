@@ -1,0 +1,48 @@
+.perfil {
+  height: 100%;
+  background: #212529;
+
+  .container {
+    padding: 12rem 0;
+
+    h1 {
+      background: #fff56b;
+      display: inline-block;
+      padding: 3rem 2rem 1rem 6rem ;
+      position: absolute;
+    }
+
+    img {
+      background: #fff;
+      height: 350px;
+      margin-top: 4rem;
+      margin-left: 10rem;
+    }
+  }    
+
+  &__wrapper {
+    padding-left: 20rem;
+
+    p {
+     line-height: 4rem;
+     color: #fff;
+    }
+
+    h2 {
+      margin: 4rem 0;
+      color: #fff56b;
+    }
+
+    ul {
+      list-style: none;
+    }
+  }
+
+  &__line {
+    border-top: 1px solid #fff;
+  }
+
+  &__text {
+    margin: 4rem auto;
+  }
+}  

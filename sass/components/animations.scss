@@ -1,0 +1,54 @@
+.from-left {
+  animation: moveFromLeft 1.5s;
+}
+
+@keyframes moveFromLeft {
+  0% {
+    opacity: 0;
+    transform: translate(-30%);
+  }
+  85% {
+    transform: translate(3%);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0%);
+  }
+}
+
+.from-left--delay {
+  animation: moveFromLeft 1.5s .5s backwards;
+}
+
+@keyframes moveFromLeft {
+  0% {
+    opacity: 0;
+    transform: translate(-30%);
+  }
+  85% {
+    transform: translate(3%);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0%);
+  }
+}
+
+
+.from-right {
+  animation: moveFromRight 1.5s;
+}
+
+@keyframes moveFromRight {
+  0% {
+    opacity: 0;
+    transform: translate(30%);
+  }
+  85% {
+    transform: translate(-3%);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0%);
+  }
+}

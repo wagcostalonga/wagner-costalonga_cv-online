@@ -1,0 +1,41 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+
+  :focus {
+    outline: none;
+  }
+}
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  color: #212529;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antiliased;
+}
+
+p, a, table {
+  font-size: 2rem !important;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 991.78px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+}
