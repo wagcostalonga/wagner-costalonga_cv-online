@@ -140,7 +140,9 @@ button {
           margin: 2rem 0 2rem 0;
           max-width: 100%; }
       .home__img-mobile {
-        display: flex; } }
+        display: flex;
+        height: auto;
+        width: auto; } }
   @media screen and (max-width: 575.98px) {
     .home p, .home h1 {
       padding: 0 1rem; } }
@@ -160,6 +162,7 @@ button {
   .perfil__content-left img {
     background: #fff;
     height: 350px;
+    width: auto;
     margin: 4rem 0 0 10rem; }
   .perfil__content-right {
     padding-left: 6rem; }
@@ -182,7 +185,6 @@ button {
       flex-direction: column; }
     .perfil__content-left img {
       background: #fff;
-      height: 400px;
       align-self: center; }
     .perfil__content-right {
       padding: 0 4rem; } }
@@ -291,6 +293,8 @@ button {
       margin-top: 1rem;
       text-decoration: none;
       color: #212529; }
+  .portfolio__img-min {
+    display: none; }
   @media screen and (max-width: 991.98px) {
     .portfolio .container {
       padding: 8rem 0; }
@@ -342,20 +346,33 @@ button {
     .portfolio__img--png {
       width: 525px; } }
   @media screen and (max-width: 575.98px) {
-    .portfolio__img--svg {
-      margin: 0 auto;
-      width: 450px;
-      left: 2px;
-      right: 0; }
-      .portfolio__img--svg-01 {
-        top: -3.3rem; }
-      .portfolio__img--svg-02 {
-        top: 28.9rem; }
-      .portfolio__img--svg-03 {
-        top: 60.9rem; }
-    .portfolio__img--png {
-      width: 438px;
-      margin: 0 auto; } }
+    .portfolio {
+      background: #212529; }
+      .portfolio h1 {
+        background: #fff;
+        color: #212529;
+        display: inline-block;
+        padding: 3rem 2rem 1rem 6rem; }
+      .portfolio h2 {
+        color: #fff; }
+      .portfolio__content {
+        margin-top: 8rem; }
+      .portfolio__img {
+        display: none; }
+      .portfolio__img-min {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden; }
+        .portfolio__img-min img {
+          display: block;
+          width: 100%;
+          height: auto;
+          opacity: 0.5;
+          transform: scale(1.05);
+          transition: all .2s; }
+          .portfolio__img-min img:hover {
+            transform: scale(1);
+            opacity: 1; } }
 
 .contato {
   height: 100%;
@@ -394,6 +411,9 @@ button {
   @media screen and (max-width: 767.98px) {
     .contato .container {
       padding: 8rem 4rem 0 4rem; } }
+  @media screen and (max-width: 575.98px) {
+    .contato {
+      background: #464b4f; } }
 
 .from-left {
   animation: moveFromLeft 1.5s; }
