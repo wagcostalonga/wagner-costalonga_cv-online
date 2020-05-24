@@ -12,8 +12,23 @@
       }
     }
     
+  table {
+      margin: 8rem auto 0 auto;
+  }
 
-  &__table {
-    margin: 8rem auto 0 auto;
+  @media screen and (max-width: 991.98px) {
+    .container {
+      padding: 8rem 0;
+    }
+
+    table {
+      margin-top: 4rem;
+      
+      tr {
+        font-size: 1.5rem;
+      }
+    }
   }
 }  
+      
+

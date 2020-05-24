@@ -10,14 +10,17 @@
     padding-right: 5rem;
 
     p {
-      width: 500px;
+      max-width: 45%;
     }
 
     h1 {
+      max-width: 55%;
       margin: 3rem 0 9rem 0;
     }
 
     a {
+      width: 200px;
+      align-self: center;
       background: #212529;
       border-radius: 0;
       color: #fff;
@@ -47,58 +50,47 @@
   }
 
 
-  /* ----- MEDIAS ----- */ 
-
   @media screen and (max-width: 991.78px) {
-    & {
       background:  #fff56b url(../assets/img/cover-index-small.svg) fixed no-repeat center center;
       height: 100%;
 
       .container {
-        padding: 10rem 0;
-        display: flex;
+        padding: 8rem 0;
+        margin-top: 4rem;
 
-        .text-header {
-          margin-top: 3rem;
-
-          h1 {
-            margin: 3rem 0 6rem 0;
-          }
+         h1 {
+          margin: 3rem 0 6rem 0;
         }
       }
     }
-  }
 
+
+  
   @media screen and (max-width: 767.98px) {
-    & {
-      background: #fff56b;
-      height: 100%;
+    background: #fff56b;
+    
+    .container {
+      padding: 8rem 2rem;
+      align-items: center;
 
-      .container {
-        padding: 5rem 0;
+      p {
+        max-width: 100%;
+      }
 
-        .content {
-          margin-top: 5rem;
-
-          .cover-mobile {
-            display: flex;
-            margin-bottom: 3rem;
-          }
-
-          h1 {
-            margin: 3rem 0;
-          }
-        }
-      }   
-    }
-  }
-  
-  @media screen and (max-width: 575.98px) {
-    & {
-      .container {
-        padding: 5rem 5rem;
+      h1 {
+        margin: 2rem 0 2rem 0;
+        max-width: 100%;
       }
     }
+
+    &__img-mobile {
+      display: flex;
+    }
   }
-  
+
+  @media screen and (max-width: 575.98px) {
+    p, h1 {
+      padding: 0 1rem;
+    }
+  }
 }

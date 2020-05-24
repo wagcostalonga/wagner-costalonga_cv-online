@@ -56,3 +56,7 @@ $('a[href*="#"]')
       $('.contato__anim').removeClass('from-right');
     }
   });
+
+  $(document).ready(function() {
+    $("#navbar").click();
+  });

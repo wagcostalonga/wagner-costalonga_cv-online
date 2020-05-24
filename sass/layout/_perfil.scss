@@ -4,6 +4,13 @@
 
   .container {
     padding: 12rem 0;
+  }
+  
+  &__content {
+    display: flex;
+  }
+
+  &__content-left {
 
     h1 {
       background: #fff56b;
@@ -15,13 +22,12 @@
     img {
       background: #fff;
       height: 350px;
-      margin-top: 4rem;
-      margin-left: 10rem;
+      margin: 4rem 0 0 10rem;
     }
-  }    
+  }
 
-  &__wrapper {
-    padding-left: 20rem;
+  &__content-right {
+    padding-left: 6rem;
 
     p {
      line-height: 4rem;
@@ -44,5 +50,27 @@
 
   &__text {
     margin: 4rem auto;
+  }
+
+  @media screen and (max-width: 991.98px) {
+    .container {
+      padding: 8rem 0;
+    }
+
+    &__content {
+      flex-direction: column;
+    }
+
+    &__content-left {
+      img {
+        background: #fff;
+        height: 400px;
+        align-self: center;
+      }
+    }
+
+    &__content-right {
+      padding: 0 4rem;
+    }
   }
 }  

@@ -52,4 +52,25 @@
       font-size: 5rem;
     }
   }
+
+  @media screen and (max-width: 991.98px) {
+    .container {
+      padding: 8rem 0;
+    }
+
+    &__content {
+      max-width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 767.98px) {
+   
+    &__content {
+      padding: 0 4rem;
+    }
+
+    &__icons {
+      display: none;
+    }
+  }
 }
